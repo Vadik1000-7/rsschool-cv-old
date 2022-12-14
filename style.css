@@ -1,0 +1,110 @@
+body{
+    margin: 0 auto;
+    background-image: -moz-linear-gradient(180deg, rgb(168, 212, 255), rgb(255, 163, 192));
+    background-image: -webkit-linear-gradient(180deg, rgb(168, 212, 255), rgb(255, 163, 192));
+
+}
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    max-width: 1000px;
+    height: 100vh;
+}
+.container-left{
+    display: flex;
+    justify-content: center;
+    border-top: 40px solid rgb(102, 96, 174);
+}
+h1{
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+}
+.my-photo{
+    width: 90%;
+    border-radius: 200px;
+}
+.photo-profile{
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    border-bottom: 1px solid black;
+    border-color: rgba(211, 211, 211, 1);
+    font-family: 'Comfortaa', cursive;
+    line-height: 20px;
+}
+.image-left-info,
+.footer-left{
+    font-family: 'La Belle Aurore', cursive;
+}
+.container-rigth{
+    padding: 50px 40px 30px 30px;
+}
+li,
+h1,
+a,
+h2:hover,
+span,
+.image-left-info{
+    transition: linear 0.3s;
+    cursor: pointer;
+}
+li:hover,
+h1:hover,
+h2:hover,
+a:hover,
+span:hover,
+.image-left-info:hover{
+    color: rgb(122, 26, 219)
+}
+p{
+    transition: linear 0.3s;
+}
+p:hover{
+    color:rgb(81, 87, 191)
+}
+p,
+.table-rigth-info{
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
+.icon-footer{
+    width: 27%;
+}
+footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+}
+li{
+    font-family: 'Comfortaa', cursive;
+}
+
+main{
+    height: 90vh;
+    margin: 0 auto;
+    max-width: 100%;
+}
+@media screen and(min-width: 150px),(max-width: 650px){
+    .container{
+        display: contents;
+    }
+    body{
+        margin: 0 auto;
+        background-image: -moz-linear-gradient(180deg, rgb(168, 212, 255), rgb(255, 163, 192));
+        background-image: -webkit-linear-gradient(180deg, rgb(168, 212, 255), rgb(255, 163, 192));
+    }
+    footer{
+        bottom: 10px;
+        padding: 10px 10px;
+    }
+}
