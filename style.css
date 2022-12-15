@@ -104,7 +104,7 @@ main{
         background-image: -webkit-linear-gradient(180deg, rgb(168, 212, 255), rgb(255, 163, 192));
     }
     footer{
-        bottom: 10px;
+        bottom: 11px;
         padding: 10px 10px;
     }
 }
