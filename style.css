@@ -23,6 +23,16 @@ h1{
 .my-photo{
     width: 90%;
     border-radius: 200px;
+    box-shadow:  3px 5px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.my-photo:hover{
+    
+}
+.my-photo:active{
+    position: relative;
+    top: 3px;
+    box-shadow:  0px 2px 1px rgba(0, 0, 0, 0.5);
 }
 .photo-profile{
     max-width: 200px;
