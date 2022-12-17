@@ -23,14 +23,14 @@ h1{
 .my-photo{
     width: 90%;
     border-radius: 200px;
-    box-shadow:  3px 5px 1px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    box-shadow:  2px 5px 1px rgba(128, 120, 120, 0.5);
 }
-
 .my-photo:active{
     position: relative;
     top: 3px;
-    box-shadow:  0px 2px 1px rgba(0, 0, 0, 0.5);
+    left: 3px;
+    box-shadow:  0px 2px 1px rgba(165, 154, 159, 0.5);
 }
 .photo-profile{
     max-width: 200px;
@@ -46,6 +46,13 @@ h2{
     border-color: rgba(211, 211, 211, 1);
     font-family: 'Comfortaa', cursive;
     line-height: 20px;
+}
+li:hover{
+    box-shadow: 3px 5px 1px rgba(199, 20, 71, 0.5);
+    border-radius: 50px;
+}
+li{
+    max-width: max-content;
 }
 .image-left-info,
 .footer-left{
