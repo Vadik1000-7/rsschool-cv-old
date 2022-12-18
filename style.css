@@ -9,7 +9,7 @@ body{
     display: grid;
     grid-template-columns: 35% 65%;
     max-width: 1000px;
-    height: 100vh;
+    max-height: 100vh;
 }
 .container-left{
     display: flex;
@@ -98,7 +98,6 @@ footer{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    bottom: 40px;
 }
 li{
     font-family: 'Comfortaa', cursive;
