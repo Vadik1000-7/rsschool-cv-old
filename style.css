@@ -112,8 +112,4 @@ main{
     .container{
         display: contents;
     }
-    footer{
-        bottom: 10px;
-        padding: 10px 10px;
-    }
 }
