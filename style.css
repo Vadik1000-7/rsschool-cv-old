@@ -9,7 +9,7 @@ body{
     display: grid;
     grid-template-columns: 35% 65%;
     max-width: 1000px;
-    height: 100vh;
+    max-height: 100vh;
 }
 .container-left{
     display: flex;
@@ -98,7 +98,6 @@ footer{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    bottom: 40px;
 }
 li{
     font-family: 'Comfortaa', cursive;
@@ -109,17 +108,8 @@ main{
     margin: 0 auto;
     max-width: 100%;
 }
-@media screen and(min-width: 150px),(max-width: 650px){
+@media screen and(min-width: 150px) and (max-width: 650px){
     .container{
         display: contents;
-    }
-    body{
-        margin: 0 auto;
-        background-image: -moz-linear-gradient(180deg, rgb(168, 212, 255), rgb(255, 163, 192));
-        background-image: -webkit-linear-gradient(180deg, rgb(168, 212, 255), rgb(255, 163, 192));
-    }
-    footer{
-        bottom: 10px;
-        padding: 10px 10px;
     }
 }
