@@ -225,6 +225,7 @@ header{
 }
 .prices{
     margin-top: 38px;
+    margin-bottom: 128px;
 }
 .prices-h2{
     font-family: 'Inter';
@@ -269,7 +270,90 @@ header{
 }
 /*Prices end*/
 
+/*contacts start*/
+.contacts{
+    background-color: rgba(237, 242, 236, 1);
+}.contacts-block{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-us{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: rgba(73, 154, 24, 1);
+    width: auto;
+}
+.button-adress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 148px;
+    border: 1px solid rgba(214, 231, 210, 1);
+    width: 450px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(214, 231, 210, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgba(113, 113, 113, 1);
+    padding: 5px 20px;
+}
+.button-contacts{
+    width: 450px;
+}
 
+
+/*contacts end*/
+
+/*footer start*/
+.link-git-data{
+    display: flex;
+    align-items: center;
+    max-width: 182px;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+}
+.rs-school{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+}
+.git{
+    text-decoration: none;
+    color:black;
+}
+.footer-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+.link-sites-profile{
+    display: flex;
+}
+.link-sites{
+    margin-left: 30px;
+}
+.footer-left{
+    margin-right: 20px;
+}
+
+
+/*footer end*/
 
 /*main end*/
 
