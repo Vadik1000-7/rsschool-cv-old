@@ -80,10 +80,15 @@ header{
     color:black;
     padding: 14px 27px;
     background-color: rgba(237, 242, 236, 1);
-    border-color: rgba(224, 103, 51, 1);
+    border-color:rgba(224, 103, 51, 1);
     border-radius: 10px;
     max-width: 158px;
     margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.learn-more:hover{
+    background-color: rgba(224, 103, 51, 1);
 }
 /*welcome end*/
 
@@ -173,18 +178,102 @@ header{
     line-height: 20px;
 }
 .text-bottom-card-box{
-    color: rgba(113, 113, 113, 1);
-    
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-margin-top: -5px;
-margin-bottom: 35px;
+    color: rgba(113, 113, 113, 1); 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -5px;
+    margin-bottom: 35px;
 }
 /*service end*/
 
+
+/*Prices start*/
+.box-prices{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.drop-down-list{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    max-height: 560px;
+    border: 1px solid black;
+    padding: 34px 41px;
+    border-radius: 20px;
+    border-color: rgba(227, 225, 213, 1);
+}
+.down-list{
+    padding: 16px 40px;
+    border-radius: 20px;
+    max-width: 250px;
+    background-color: rgba(237, 242, 236, 1);
+    border: 1px solid rgba(237, 242, 236, 1);
+    list-style-type: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.list-icon{
+    margin-left: auto;
+}
+.prices{
+    margin-top: 38px;
+}
+.prices-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: auto;
+    margin-bottom: 60px;
+}
+.rigth-box-prices{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 38px;
+}
+.text-right-box{
+    margin-top: -40px;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+.text-box-gardeners{
+    color: rgba(73, 154, 24, 1);
+}
+.button-contact-us-prices{
+    padding: 12px 30px;
+    border-color: rgba(224, 103, 51, 1);
+    background-color: #fff;
+    color: rgba(224, 103, 51, 1);
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0px 39px 0px;
+}
+/*Prices end*/
+
+
+
 /*main end*/
+
+
+
 
 
