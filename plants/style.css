@@ -1,0 +1,119 @@
+body{
+    margin: 0 auto;
+}
+h2{
+    font-family: 'Inika';
+}
+header{
+    background-color: rgba(237, 242, 236, 1);
+}
+.container{
+    margin: 0px 109px;
+}
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 134px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+	align-items: center;
+}
+.nav-item{
+    padding-left: 46px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+a:hover{
+    color: rgba(224, 103, 51, 1);
+}
+/*header end*/
+
+
+
+/*main start*/
+.welcome{
+    background-color: rgba(237, 242, 236, 1);
+}
+.welcome-section{
+    display: flex;
+    justify-content: space-between;
+    height: 532px;
+}
+.text-and-button-welcome{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+.grow-plants{
+    color: rgba(113, 113, 113, 1);
+    margin-bottom: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+.grow-plants-welcome{
+    color: rgba(73, 154, 24, 1);
+}
+.lorem-Ipsum{
+    font-size: 20px;
+    color: rgba(99, 96, 96, 1);
+    margin-bottom: 48px;
+    line-height: 35px;
+}
+.learn-more{
+    color:black;
+    padding: 14px 27px;
+    background-color: rgba(237, 242, 236, 1);
+    border-color: rgba(224, 103, 51, 1);
+    border-radius: 10px;
+    max-width: 158px;
+    margin-top: 20px;
+}
+/*welcome end*/
+
+/*about start*/
+.text-and-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 94px 0px 94px 0px;
+}
+.common-text{
+    max-width: 605px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+.span1-professional-experienced{
+    color: rgba(73, 154, 24, 1);
+}
+.professional-experienced{
+    color: rgba(224, 103, 51, 1);
+}
+.text-about{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(99, 96, 96, 1);
+}
+
+/*about end*/
+
+
+/*main end*/
+
+
