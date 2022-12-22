@@ -267,6 +267,11 @@ header{
     border-radius: 5px;
     cursor: pointer;
     margin: 5px 0px 39px 0px;
+    transition: 0.3s;
+}
+.button-contact-us-prices:hover{
+    background-color: rgb(213, 108, 63);
+    color: black;
 }
 /*Prices end*/
 
