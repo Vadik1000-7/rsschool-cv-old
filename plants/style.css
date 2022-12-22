@@ -1,0 +1,363 @@
+body{
+    margin: 0 auto;
+}
+h2{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    font-size: 40px;
+}
+header{
+    background-color: rgba(237, 242, 236, 1);
+}
+.container{
+    margin: 0px 109px;
+}
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 134px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+	align-items: center;
+}
+.nav-item{
+    padding-left: 46px;
+}
+.nav-hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.nav-hover:hover{
+    color: rgba(224, 103, 51, 1);
+}
+/*header end*/
+
+
+
+/*main start*/
+.welcome{
+    background-color: rgba(237, 242, 236, 1);
+}
+.welcome-section{
+    display: flex;
+    justify-content: space-between;
+    height: 532px;
+}
+.text-and-button-welcome{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+.grow-plants{
+    color: rgba(113, 113, 113, 1);
+    margin-bottom: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+.grow-plants-welcome{
+    color: rgba(73, 154, 24, 1);
+}
+.lorem-Ipsum{
+    font-size: 20px;
+    color: rgba(99, 96, 96, 1);
+    margin-bottom: 48px;
+    line-height: 35px;
+}
+.learn-more{
+    color:black;
+    padding: 14px 27px;
+    background-color: rgba(237, 242, 236, 1);
+    border-color:rgba(224, 103, 51, 1);
+    border-radius: 10px;
+    max-width: 158px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.learn-more:hover{
+    background-color: rgba(224, 103, 51, 1);
+}
+/*welcome end*/
+
+/*about start*/
+.text-and-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 94px 0px 94px 0px;
+}
+.common-text{
+    max-width: 605px;
+}
+.span1-professional-experienced{
+    color: rgba(73, 154, 24, 1);
+
+}
+.professional-experienced{
+    color: rgba(224, 103, 51, 1);
+}
+.text-about{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(99, 96, 96, 1);
+}
+/*about end*/
+
+/*service start*/
+.service{
+    background-color: rgba(237, 242, 236, 1);
+}
+.service-header{
+    display: flex;
+    align-items: center;
+}
+.Service-and-our{
+    color: rgba(73, 154, 24, 1);
+    margin-right: 140px;
+}
+.service-header-container{
+    display: flex;
+    max-width: 559px;
+    }
+.button-service{
+    border: 1px solid rgba(224, 103, 51, 1);
+    border-radius: 5px;
+    padding: 12px 40px;
+    margin-right: 38px;
+}
+.a-button-service{
+    text-decoration: none;
+    color: rgba(224, 103, 51, 1);
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.card-box-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+.mix-card-box{
+    border: 1px solid rgba(227, 225, 213, 1);
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-top-card-box{
+    color: rgba(224, 103, 51, 1);  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+.text-bottom-card-box{
+    color: rgba(113, 113, 113, 1); 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -5px;
+    margin-bottom: 35px;
+}
+/*service end*/
+
+
+/*Prices start*/
+.box-prices{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.drop-down-list{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    max-height: 560px;
+    border: 1px solid black;
+    padding: 34px 41px;
+    border-radius: 20px;
+    border-color: rgba(227, 225, 213, 1);
+}
+.down-list{
+    padding: 16px 40px;
+    border-radius: 20px;
+    max-width: 250px;
+    background-color: rgba(237, 242, 236, 1);
+    border: 1px solid rgba(237, 242, 236, 1);
+    list-style-type: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.list-icon{
+    margin-left: auto;
+}
+.prices{
+    margin-top: 38px;
+    margin-bottom: 128px;
+}
+.prices-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: auto;
+    margin-bottom: 60px;
+}
+.rigth-box-prices{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 38px;
+}
+.text-right-box{
+    margin-top: -40px;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+.text-box-gardeners{
+    color: rgba(73, 154, 24, 1);
+}
+.button-contact-us-prices{
+    padding: 12px 30px;
+    border-color: rgba(224, 103, 51, 1);
+    background-color: #fff;
+    color: rgba(224, 103, 51, 1);
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0px 39px 0px;
+}
+/*Prices end*/
+
+/*contacts start*/
+.contacts{
+    background-color: rgba(237, 242, 236, 1);
+}.contacts-block{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-us{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: rgba(73, 154, 24, 1);
+    width: auto;
+}
+.button-adress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 148px;
+    border: 1px solid rgba(214, 231, 210, 1);
+    width: 450px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(214, 231, 210, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgba(113, 113, 113, 1);
+    padding: 5px 20px;
+}
+.button-contacts{
+    width: 450px;
+}
+
+
+/*contacts end*/
+
+/*footer start*/
+.link-git-data{
+    display: flex;
+    align-items: center;
+    max-width: 182px;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+}
+.rs-school{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+}
+.git{
+    text-decoration: none;
+    color:black;
+}
+.footer-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+.link-sites-profile{
+    display: flex;
+}
+.link-sites{
+    margin-left: 30px;
+}
+.footer-left{
+    margin-right: 20px;
+}
+
+
+/*footer end*/
+
+/*main end*/
+
+
+
+
+
