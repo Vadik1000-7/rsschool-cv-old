@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
 }
 body{
@@ -20,6 +20,11 @@ header{
 .header-logo{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.logo-cvg{
+    width: 80px;
+    height: 20px;
 }
 .navbar{
     display: flex;
@@ -364,6 +369,9 @@ header{
 /*footer end*/
 
 /*main end*/
+
+
+
 
 
 
