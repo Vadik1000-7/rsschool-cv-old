@@ -24,3 +24,5 @@ Vkontakte : https://vk.com/salem_cat1998
 Примеры кода
 
 https://github.com/Vadik1000-7/Restoran.git
+
+https://vadik1000-7.github.io/rsschool-cv/plants/
