@@ -440,6 +440,9 @@ header{
 /*footer end*/
 
 /*main end*/
+
+
+
 /*header start 768px*/
 
 @media screen and (max-width: 900px) {
@@ -454,7 +457,11 @@ header{
 /*header end 768px*/
 
 /*main start 768px*/
-
+@media screen and (max-width: 1100px){
+    .leafs-header{
+        width: 50%;
+    }
+}
 @media screen and (max-width: 900px){
     .picture-welcome{
         margin-top: 40px;
@@ -919,12 +926,17 @@ header{
 /*price end 380px*/
 
 /*Contact-us start 380px*/
+@media screen and (max-width: 370px){
+    .contacts-block{
+        
+    }
+}
 
 @media screen and (max-width: 700px){
     .contacts-us{
         margin: 25px 0px 80px 0px;
         font-size: 25px;
-        line-height: 33px
+        line-height: 33px;
     }
     .woman-images{
         margin-top: 130px;
@@ -932,16 +944,8 @@ header{
         height: 124px;
         margin-right: 0;
     }
-    .button-contacts{
-        margin: 0 auto;
-        width: 300px;
-    }
-    .button-adress{
-        width: 300px;
-    }
     .contacts-acc{
         margin-right: 23px;
-        margin-left: auto;
     }
     .city{
         margin-left: 23px;
@@ -950,7 +954,10 @@ header{
         line-height: 40px;
     }
     .contacts-block{
-        max-width: 300px;
+        display: flex;
+        align-items: center;
+        width: 50%;
+        max-width: 200px;
     }
 }
 
