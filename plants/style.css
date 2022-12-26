@@ -99,10 +99,12 @@ header{
 }
 .lorem-Ipsum{
     font-size: 20px;
+    font-weight: 400;
     color: rgba(99, 96, 96, 1);
     margin-bottom: 48px;
     line-height: 35px;
-    Font-style: 'Regular';
+    font-style: normal;
+    font-family: 'Inter';
 }
 .learn-more{
     color:black;
@@ -138,6 +140,7 @@ header{
     color: rgba(224, 103, 51, 1);
 }
 .text-about{
+    font-family: 'inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -162,6 +165,7 @@ header{
     border: 1px solid rgba(224, 103, 51, 1);
     color: #E06733;
     border-radius: 5px;
+    width: 161px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,14 +176,15 @@ header{
 }
 .Service-and-our{
     color: rgba(73, 154, 24, 1);
-    margin-right: 140px;
-    margin: 40px 140px 40px 0px;
+    margin: 40px 158px 80px 0px;
 }
 .service-header-container{
     display: flex;
     justify-content: space-between;
     width: 559px;
     align-items: center;
+    height: 50px;
+    margin-top: -37px;
 }
 .a-button-service{
     display: flex;
@@ -191,6 +196,7 @@ header{
     font-style: normal;
     font-weight: 400;
     padding: 12px 40px;
+    font-size: 20px;
 }
 .a-button-service:hover{
     color: #FFF;
@@ -211,9 +217,11 @@ header{
     border: 1px solid rgba(227, 225, 213, 1);
     border-radius: 0px 0px 20px 20px;
     width: 100%;
+    max-width: 328px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 98px;
 }
 .text-top-card-box{
     color: rgba(224, 103, 51, 1);  
@@ -222,7 +230,7 @@ header{
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 14px 0px;
 }
 .text-bottom-card-box{
     color: rgba(113, 113, 113, 1); 
@@ -252,7 +260,7 @@ header{
     row-gap: 32px;
 }
 .down-list{
-    padding: 16px 40px;
+    padding: 12px 40px;
     border-radius: 20px;
     max-width: 250px;
     background-color: rgba(237, 242, 236, 1);
@@ -279,7 +287,7 @@ header{
 }
 .prices{
     margin-top: 40px;
-    margin-bottom: 128px;
+    margin-bottom: 110px;
 }
 .prices-h2{
     font-family: 'Inter';
@@ -294,7 +302,9 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
+}
+.left-box-prices{
+    width: 332px;
 }
 .text-right-box{
     text-align: right;
@@ -327,6 +337,10 @@ header{
     background-color: rgb(213, 108, 63);
     color: black;
 }
+.leafs-prices{
+    width: 152px;
+    height: 174px;
+}
 /*Prices end*/
 
 /*contacts start*/
@@ -349,6 +363,7 @@ header{
 }
 .woman-images{
     margin-top: 53px;
+    margin-right: 45px;
 }
 .button-contacts{
     max-width: 450px;
@@ -356,6 +371,7 @@ header{
     width: 100%;
 }
 .button-adress{
+    height: 47px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -374,7 +390,7 @@ header{
     margin-right: 0 auto;
 }
 .contacts-acc{
-    margin: 5px 24px 5px 0px;
+    margin: 5px 33px 5px 0px;
     margin-left: 0 auto;
 }
 
@@ -384,13 +400,12 @@ header{
 .link-git-data{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
-    column-gap: 20px;
+    column-gap: 22px;
 }
 .rs-school{
     font-family: 'Inter';
@@ -418,7 +433,7 @@ header{
 .link-sites-profile{
     display: flex;
 	list-style: none;
-    column-gap: 30px;
+    column-gap: 20px;
 }
 
 
@@ -552,7 +567,7 @@ header{
         font-weight: 400;
         font-size: 35px;
         line-height: 46px;
-        margin-bottom: 52px;
+        margin-bottom: 40px;
         margin-top: 60px;
     }
     .service-header{
@@ -561,7 +576,7 @@ header{
         align-items: flex-start;
     }
     .service-header-container{
-        margin-bottom: 52px;
+        margin-bottom: 40px;
         width: 559px;
         column-gap: 38px;
     }
