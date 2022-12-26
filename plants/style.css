@@ -645,7 +645,6 @@ header{
     }
     .button-adress{
         margin-top: 0;
-        width: 450px;
         height: 50px;
     }
     .contacts-block{
@@ -933,15 +932,14 @@ header{
         margin-right: 0;
     }
     .button-contacts{
+        max-width: 100%;
         margin: 0 auto;
-        width: 300px;
     }
     .button-adress{
-        width: 300px;
+        max-width: 100%;
     }
     .contacts-acc{
         margin-right: 23px;
-        margin-left: auto;
     }
     .city{
         margin-left: 23px;
