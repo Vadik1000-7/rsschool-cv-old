@@ -688,3 +688,289 @@ header{
 
 
 /*main end 768px*/
+
+@media screen and (max-width: 380px){
+    .container{
+        margin: 0px 25px;
+    }
+}
+
+/*Header start 380px*/
+
+@media screen and (max-width: 380px){
+    .header-logo{
+        height: 21px;
+        width: 77px;
+    }
+    .navbar{
+        display: flex;
+        height: 96px;
+        align-items: center;
+    }
+    .header{
+        max-height: 96px;
+        margin: 0 auto;
+    }
+    .nav-list{
+        display: none;
+    }
+}
+/*Header end 380px*/
+
+
+/*main start 380px*/
+
+/*welcome start 380px*/
+
+@media screen and (max-width: 380px){
+    .welcome{
+        max-height: 300px;
+    }
+    .welcome-section{
+    }
+    .picture-welcome{
+        display: none;
+    }
+    .grow-plants{
+        height: 70px;
+        margin: 24px 0px 20px 0px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .lorem-Ipsum{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .learn-more{
+        height: 34px;
+        padding: 8px 18px;
+        width: 100px;
+        border: 2px solid #E06733;
+        border-radius: 10px;
+        margin-top: -5px;
+    }
+    .learn-more1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+/*welcome end 380px*/
+
+/*about start 380px*/
+
+@media screen and (max-width: 380px){
+    .span1-professional-experienced{
+        margin: 30px 0px 10px 0px;
+        width: 288px;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+    }
+    .text-about{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .picture-about{
+        margin-top: 0;
+        width: 150px;
+        height: 147px;
+        margin-bottom: 31px;
+    }
+}
+
+/*about end 380px*/
+
+/*Service start 380px*/
+
+@media screen and (max-width: 380px){
+    .service{
+        padding-bottom: 25px;
+    }
+    .Service-and-our{
+        margin: 35px 0px 35px 0px;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        width: 187px;
+    }
+    .service-header-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 259px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .button-service{
+        width: 121px;
+        height: 35px;
+    }
+    .a-button-service{
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .card-box-service{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        row-gap: 35px;
+    }
+    .card-images{
+        width: 279px;
+        height: 350px;
+    }
+    .text-top-card-box{
+        margin-bottom: 12px;
+    }
+}
+
+/*Service end 380px*/
+
+/*Price start 380px*/
+
+@media screen and (max-width: 380px){
+    .prices-h2{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        margin: 24px 0px 37px 0px;
+    }
+    .prices{
+        margin: 0;
+        height: 512px;
+    }
+    .box-prices{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .images-leafs-prices{
+        display: none;
+    }
+    .rigth-box-prices{
+        margin: 0;
+        text-align: center;
+    }
+    .text-right-box{
+        margin: 19px 0px 18px 0px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 35px;
+        width: 230px;
+    }
+    .drop-down-list{
+        width: 224px;
+        margin: 0px auto;
+    }
+    .drop-down1{
+        margin: 29px 22px 13px 22px;
+    }
+    .drop-down2{
+        margin: -29px 22px 13px 22px;
+    }
+    .drop-down3{
+        margin: -30px 22px 29px 22px;
+        white-space: nowrap;
+    }
+    .down-list{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 13px 30px;
+    }
+    .button-contact-us-prices{
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 8px 22px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .list-icon{
+        margin-left: auto;
+        margin-right: 10px;
+    }
+}
+
+/*price end 380px*/
+
+/*Contact-us start 380px*/
+
+@media screen and (max-width: 380px){
+    .contacts-us{
+        margin: 25px 0px 80px 0px;
+        font-size: 25px;
+        line-height: 33px
+    }
+    .woman-images{
+        margin-top: 130px;
+        width: 100px;
+        height: 124px;
+        margin-right: 0;
+    }
+    .button-contacts{
+        margin: 0 auto;
+        width: 300px;
+    }
+    .button-adress{
+        width: 300px;
+    }
+    .contacts-acc{
+        margin-right: 23px;
+        margin-left: auto;
+    }
+    .city{
+        margin-left: 23px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+/*Contact-us end 380px*/
+
+/*Footer start 380px*/
+
+@media screen and (max-width: 380px){
+    .footer-display{
+        margin: 7px 0px 21px 0px;
+    }
+    .link-git-data{
+        width: 170px;
+        column-gap: 20px;
+    }
+    .school-link{
+        margin-top: -10px;
+    }
+    .link-sites-profile{
+        margin-top: -15px;
+    }
+}
+
+/*Footer end 380px*/
+
+/*main end 380px*/
