@@ -11,6 +11,10 @@ h1{
 body{
     margin: 0 auto;
 }
+span{
+    margin: 0;
+    padding: 0;
+}
 ul[class],
 ol[class],
 div[class],
@@ -83,19 +87,20 @@ header{
 .text-and-button-welcome{
     display: flex;
     flex-direction: column;
-    max-width: 550px;
+    max-width: 548px;
 }
 .grow-plants{
+    display: block;
     color: rgba(113, 113, 113, 1);
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
     font-size: 45px;
-    line-height: 50px;
-    margin: 98px 0px 42px 0px;
+    line-height: 51px;
+    margin: 98px 13px 42px 0px;
+    text-align: justify;
 }
-.grow-plants-welcome{
+.grow-plants span{
     color: rgba(73, 154, 24, 1);
+    margin-top: 62px;
 }
 .lorem-Ipsum{
     font-size: 20px;
@@ -106,9 +111,16 @@ header{
     font-style: normal;
     font-family: 'Inter';
 }
+.learn-more1{
+    Font-family: 'Inter';
+    Font-style: 'Regular';
+    font-size: 16px;
+    Line-height: 20px;
+    white-space: nowrap;
+}
 .learn-more{
     color:black;
-    padding: 14px 27px;
+    padding: 10px 27px;
     background-color: rgba(237, 242, 236, 1);
     border-color:rgba(224, 103, 51, 1);
     border-radius: 10px;
@@ -119,7 +131,7 @@ header{
 .learn-more:hover{
     background-color: rgba(224, 103, 51, 1);
 }
-.picture-welcome{
+.leafs-header{
     margin-top: 62px;
 }
 /*welcome end*/
@@ -246,9 +258,9 @@ header{
 
 /*Prices start*/
 .box-prices{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
+    display: flex;
+    justify-content: space-between;
+}    
 .drop-down-list{
     display: flex;
     flex-direction: column;
@@ -288,32 +300,42 @@ header{
 .prices{
     margin-top: 40px;
     margin-bottom: 110px;
+    width: 100%;
 }
 .prices-h2{
+    display: block;
     font-family: 'Inter';
-    font-style: normal;
+    font-style: bold;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
     margin-top: auto;
     margin-bottom: 60px;
+    margin-left: 5px;
 }
 .rigth-box-prices{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    max-width: 470px;
+    padding: 0px;
+    text-align: justify;
 }
 .left-box-prices{
     width: 332px;
 }
+.text-right-box span{
+    width: 30px;
+}
 .text-right-box{
-    text-align: right;
+    display: block;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
     margin-bottom: 38px;
+    width: 542px;
+    text-align: right;
 }
 .text-box-gardeners{
     color: rgba(73, 154, 24, 1);
@@ -422,8 +444,8 @@ header{
 }
 .footer-display{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     margin: 40px 0px;
 }
 .footer-left{
@@ -434,6 +456,11 @@ header{
     display: flex;
 	list-style: none;
     column-gap: 20px;
+}
+.school-link{
+    display: block;
+    white-space: nowrap;
+    margin-left: 15px;
 }
 
 
