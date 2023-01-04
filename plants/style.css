@@ -5,8 +5,9 @@ ul,
 p{
     margin: 0;
 }
-h1{
+h2{
     margin: 0;
+    padding: 0;
 }
 body{
     margin: 0 auto;
@@ -15,20 +16,10 @@ span{
     margin: 0;
     padding: 0;
 }
+h1[class],
 ul[class],
-ol[class],
-div[class],
-h2[class],
-h1[class]{
+ol[class]{
 padding: 0;
-}
-h2{
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 52px;
-    font-size: 40px;
-    margin: 0;
 }
 header{
     background-color: rgba(237, 242, 236, 1);
@@ -71,6 +62,9 @@ header{
     font-style: bold;
     font-weight: 700;
 }
+.nav-item{
+    margin-top: 3px;
+}
 /*header end*/
 
 
@@ -85,18 +79,17 @@ header{
     height: 532px;
 }
 .text-and-button-welcome{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    max-width: 548px;
+    width: 546px;  
 }
-.grow-plants{
-    display: block;
+.plants-you-oxygen{
     color: rgba(113, 113, 113, 1);
-    font-family: 'Inter';
-    font-size: 45px;
-    line-height: 51px;
-    margin: 98px 13px 42px 0px;
-    text-align: justify;
+    margin: 98px 0px 45px 0px;
+    Font-family: 'Inter';
+    Font-size: 45px;
+    Line-height: 50px;
+    letter-spacing: 0.5px;
 }
 .grow-plants span{
     color: rgba(73, 154, 24, 1);
@@ -113,7 +106,6 @@ header{
 }
 .learn-more1{
     Font-family: 'Inter';
-    Font-style: 'Regular';
     font-size: 16px;
     Line-height: 20px;
     white-space: nowrap;
@@ -134,6 +126,9 @@ header{
 .leafs-header{
     margin-top: 62px;
 }
+.picture-welcome{
+    overflow: hidden;
+}
 /*welcome end*/
 
 /*about start*/
@@ -147,6 +142,9 @@ header{
 .span1-professional-experienced{
     color: rgba(73, 154, 24, 1);
     margin: 160px 0px 40px 0px;
+    Font-family: 'Inika';
+    Font-size: 40px;
+    Line-height: 52px;
 }
 .professional-experienced{
     color: rgba(224, 103, 51, 1);
@@ -189,6 +187,9 @@ header{
 .Service-and-our{
     color: rgba(73, 154, 24, 1);
     margin: 40px 158px 80px 0px;
+    Font-family: 'Inika';
+    Font-size: 40px;
+    Line-height: 52px;
 }
 .service-header-container{
     display: flex;
@@ -311,15 +312,13 @@ header{
     line-height: 48px;
     margin-top: auto;
     margin-bottom: 60px;
-    margin-left: 5px;
+    letter-spacing: 1.5px;
 }
 .rigth-box-prices{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    max-width: 470px;
-    padding: 0px;
-    text-align: justify;
+    text-align: right;
 }
 .left-box-prices{
     width: 332px;
@@ -328,14 +327,14 @@ header{
     width: 30px;
 }
 .text-right-box{
-    display: block;
+    display: inline-block;
     font-family: 'Inter';
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
-    margin-bottom: 38px;
-    width: 542px;
-    text-align: right;
+    margin-bottom: 39px;
+    max-width: 470px;
+    letter-spacing: 0.4px;
 }
 .text-box-gardeners{
     color: rgba(73, 154, 24, 1);
@@ -353,7 +352,7 @@ header{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
 }
 .button-contact-us-prices:hover{
     background-color: rgb(213, 108, 63);
