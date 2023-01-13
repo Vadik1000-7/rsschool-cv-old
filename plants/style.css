@@ -230,11 +230,12 @@ header{
     border: 1px solid rgba(227, 225, 213, 1);
     border-radius: 0px 0px 20px 20px;
     width: 100%;
-    max-width: 328px;
+    max-width: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 98px;
+    margin-top: -5px;
 }
 .text-top-card-box{
     color: rgba(224, 103, 51, 1);  
@@ -253,6 +254,9 @@ header{
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 36px;
+}
+.card-images{
+    border-radius: 20px 20px 0px 0px;
 }
 /*service end*/
 
@@ -520,7 +524,7 @@ header{
     }
     .text-and-button-welcome{
         float: left;
-        max-width: 546px;
+        max-width: 341px;
         max-height: 100px;
     }
     .welcome{
@@ -636,7 +640,7 @@ header{
         line-height: 26px;
     }
     .card-box-service{
-        row-gap: 36px;
+        row-gap: 38px;
     }
 }
 
@@ -868,7 +872,7 @@ header{
         padding-bottom: 25px;
     }
     .Service-and-our{
-        margin: 35px 0px 35px 0px;
+        margin: 35px 0px -5px 0px;
         font-family: 'Inika';
         font-style: normal;
         font-weight: 400;
@@ -924,7 +928,7 @@ header{
     }
     .prices{
         margin: 0;
-        height: 512px;
+        height: 515px;
     }
     .box-prices{
         display: flex;
@@ -967,6 +971,7 @@ header{
         font-size: 15px;
         line-height: 20px;
         padding: 13px 30px;
+        max-width: 180px;
     }
     .button-contact-us-prices{
         margin: 0 auto;
@@ -997,6 +1002,7 @@ header{
         width: 100px;
         height: 124px;
         margin-right: 0;
+        padding: 0px;
     }
     .button-contacts{
         margin: 0 auto;
@@ -1029,17 +1035,18 @@ header{
 
 @media screen and (max-width: 400px){
     .footer-display{
-        margin: 7px 0px 21px 0px;
+        margin: 24px 0px 21px 0px;
     }
     .link-git-data{
         width: 170px;
-        column-gap: 20px;
+        column-gap: 22px;
+        margin-bottom: 15px;
     }
     .school-link{
         margin-top: -10px;
     }
     .link-sites-profile{
-        margin-top: -15px;
+        margin-top: -5px;
     }
 }
 
