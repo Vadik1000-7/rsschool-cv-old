@@ -230,11 +230,12 @@ header{
     border: 1px solid rgba(227, 225, 213, 1);
     border-radius: 0px 0px 20px 20px;
     width: 100%;
-    max-width: 328px;
+    max-width: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 98px;
+    margin-top: -5px;
 }
 .text-top-card-box{
     color: rgba(224, 103, 51, 1);  
@@ -253,6 +254,9 @@ header{
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 36px;
+}
+.card-images{
+    border-radius: 20px 20px 0px 0px;
 }
 /*service end*/
 
@@ -482,14 +486,14 @@ header{
 
 /*main start 768px*/
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1200px){
     .picture-welcome{
         margin-top: 40px;
         width: 280px;
         height: 254.15px;
         order: 2;
     }
-    .grow-plants{
+    .plants-you-oxygen{
         margin: 40px 0px 30px 0px;
         font-size: 35px;
         line-height: 51px;
@@ -511,18 +515,20 @@ header{
         font-size: 16px;
         font-family: 'Inter';
         font-style: normal;
-        margin-left: 5px;
+        margin-left: 3px;
         padding-bottom: 7px;
+        max-width: 350px;
     }
     br{
         display: none;
     }
     .text-and-button-welcome{
         float: left;
-        width: 346px;
-        height: 310px;
+        max-width: 341px;
+        max-height: 100px;
     }
     .welcome{
+        box-sizing: border-box;
         height: 420px;
     }
     .learn-more{
@@ -543,7 +549,7 @@ header{
 
 /*about start*/
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1026px){
     .text-and-images{
         display: flex;
         flex-direction: column;
@@ -574,7 +580,7 @@ header{
     }
     .picture-about{
         width: 250px;
-        height: 258px;
+        max-height: 258px;
         margin: 68px 0px 95px 0px;
     }
 }
@@ -600,6 +606,7 @@ header{
         line-height: 46px;
         margin-bottom: 40px;
         margin-top: 60px;
+        padding-bottom: 40px;
     }
     .service-header{
         display: flex;
@@ -632,6 +639,9 @@ header{
         font-size: 20px;
         line-height: 26px;
     }
+    .card-box-service{
+        row-gap: 38px;
+    }
 }
 
 /*service end 768px*/
@@ -650,9 +660,22 @@ header{
         line-height: 35px;
         margin-top: 139px;
         margin-bottom: 21px;
+        width: 296px;
+        margin-top: 105px;
+        margin-bottom: 25px;
     }
     .button-contact-us-prices{
         margin-bottom: 34px;
+    }
+    .prices-h2{
+        padding-left: 15px;
+        padding-top: 5px;
+        Font-size: 35px;
+        Line-height: 42px;
+        margin-bottom: 56px;
+    }
+    .down-list{
+        width: 250px;
     }
 }
 
@@ -664,8 +687,8 @@ header{
 @media screen and (max-width: 900px){
     .contacts-us{
         order: -2;
-        margin-top: 40px;
-        margin-bottom: 100px;
+        margin-top: 35px;
+        margin-bottom: 98px;
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
@@ -689,6 +712,8 @@ header{
         width: 200px;
         height: 248.49px;
         margin-top: 250px;
+        margin-right: 0;
+        padding-left: 20px;
     }
 }
 
@@ -701,18 +726,22 @@ header{
     .footer-display{
         display: flex;
         flex-direction: column;
-        margin: 32px 0px 18px 0px;
+        margin: 35px 0px 18px 0px;
     }
     .link-git-data{
         column-gap: 20px;
+        height: 20px;
+        margin-bottom: 4px;
     }
     .school-link{
-        margin-bottom: 16px;
+        margin-bottom: 6px;
+        margin-left: 0;
     }
     .link-sites-profile{
         display: flex;
         column-gap: 20px;
     }
+    
 }
 
 /*footer end 768px*/
@@ -762,9 +791,9 @@ header{
     .picture-welcome{
         display: none;
     }
-    .grow-plants{
+    .plants-you-oxygen{
         height: 70px;
-        margin: 24px 0px 20px 0px;
+        margin: 26px 0px 20px 0px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
@@ -777,6 +806,8 @@ header{
         font-weight: 400;
         font-size: 16px;
         line-height: 25px;
+        margin-left: 0;
+        padding-bottom: 0;
     }
     .learn-more{
         height: 34px;
@@ -801,7 +832,7 @@ header{
 
 @media screen and (max-width: 400px){
     .span1-professional-experienced{
-        margin: 30px 0px 10px 0px;
+        margin: 30px 0px 14px 0px;
         width: 288px;
         font-family: 'Inika';
         font-style: normal;
@@ -823,18 +854,25 @@ header{
         height: 147px;
         margin-bottom: 31px;
     }
+    .card-images{
+        object-fit:cover;
+    }
+    .card-box-service{
+        row-gap: 34px;
+    }
+
 }
 
 /*about end 380px*/
 
 /*Service start 380px*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 613px){
     .service{
         padding-bottom: 25px;
     }
     .Service-and-our{
-        margin: 35px 0px 35px 0px;
+        margin: 35px 0px -5px 0px;
         font-family: 'Inika';
         font-style: normal;
         font-weight: 400;
@@ -865,7 +903,8 @@ header{
         margin-top: 70px;
         display: flex;
         justify-content: center;
-        row-gap: 35px;
+        row-gap: 34px;
+        border-radius: 5px 0px 0px 5px;
     }
     .card-images{
         width: 279px;
@@ -889,7 +928,7 @@ header{
     }
     .prices{
         margin: 0;
-        height: 512px;
+        height: 515px;
     }
     .box-prices{
         display: flex;
@@ -932,6 +971,7 @@ header{
         font-size: 15px;
         line-height: 20px;
         padding: 13px 30px;
+        max-width: 180px;
     }
     .button-contact-us-prices{
         margin: 0 auto;
@@ -962,6 +1002,7 @@ header{
         width: 100px;
         height: 124px;
         margin-right: 0;
+        padding: 0px;
     }
     .button-contacts{
         margin: 0 auto;
@@ -994,17 +1035,18 @@ header{
 
 @media screen and (max-width: 400px){
     .footer-display{
-        margin: 7px 0px 21px 0px;
+        margin: 24px 0px 21px 0px;
     }
     .link-git-data{
         width: 170px;
-        column-gap: 20px;
+        column-gap: 22px;
+        margin-bottom: 15px;
     }
     .school-link{
         margin-top: -10px;
     }
     .link-sites-profile{
-        margin-top: -15px;
+        margin-top: -5px;
     }
 }
 
