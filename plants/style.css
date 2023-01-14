@@ -694,13 +694,12 @@ header{
         font-size: 40px;
         line-height: 52px;
     }
-    .button-contacts{
-        order: -1;
-    }
+
     .button-adress{
         margin-top: 0;
         width: 450px;
         height: 50px;
+        order: -1;
     }
     .contacts-block{
         display: flex;
@@ -860,7 +859,6 @@ header{
     .card-box-service{
         row-gap: 34px;
     }
-
 }
 
 /*about end 380px*/
@@ -903,7 +901,7 @@ header{
         margin-top: 70px;
         display: flex;
         justify-content: center;
-        row-gap: 34px;
+        row-gap: 36px;
         border-radius: 5px 0px 0px 5px;
     }
     .card-images{
@@ -912,6 +910,9 @@ header{
     }
     .text-top-card-box{
         margin-bottom: 12px;
+    }
+    .text-and-images{
+        max-height: 600px;
     }
 }
 
@@ -925,6 +926,8 @@ header{
         font-size: 25px;
         line-height: 30px;
         margin: 24px 0px 37px 0px;
+        padding: 0px;
+        padding-top: 3px;
     }
     .prices{
         margin: 0;
@@ -945,7 +948,7 @@ header{
         text-align: center;
     }
     .text-right-box{
-        margin: 19px 0px 18px 0px;
+        margin: 21px 0px 18px 0px;
         text-align: center;
         font-weight: 700;
         font-size: 20px;
@@ -1005,18 +1008,14 @@ header{
         padding: 0px;
     }
     .button-contacts{
-        margin: 0 auto;
-        width: 300px;
-    }
-    .button-adress{
-        width: 300px;
+        margin-left: 0;
+        max-width: 200px;
     }
     .contacts-acc{
         margin-right: 23px;
-        margin-left: auto;
     }
     .city{
-        margin-left: 23px;
+        margin-left: 19px;
         font-weight: 400;
         font-size: 20px;
         line-height: 40px;
@@ -1026,6 +1025,19 @@ header{
         align-content: center;
         margin-left: 0 auto;
         max-width: 300px;
+    }
+    .button-adress{
+        max-width: 300px;
+        order: -1;
+        padding: 0px;
+    }
+    .contacts-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 330px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -1049,7 +1061,25 @@ header{
         margin-top: -5px;
     }
 }
-
+@media screen and (max-width: 340px){
+    .button-adress{
+        max-width: 250px;
+    }
+    .common-text,
+    .about{
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .service-header-container{
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .Service-and-our{
+        margin: 0 auto;
+    }
+}
 /*Footer end 380px*/
 
 /*main end 380px*/
