@@ -49,6 +49,7 @@ header{
     max-width: 450px;
     width: 100%;
 }
+.nav-hover2,
 .nav-hover{
     text-decoration: none;
     color: black;
@@ -1063,10 +1064,21 @@ header{
 }
 @media screen and (max-width: 350px){
     body{
-        width: 100%;
+        min-width: 325px;
+        display: block;
+    }
+    .prices{
+        max-width: 250px;
+    }
+    .span1-professional-experienced{
+        font-size: 20px;
+        max-width: 280px;
     }
     .container{
         background-size: cover;
+        display: block;
+        max-width: 280px;
+        margin: 0 auto;
     }
     .button-adress{
         max-width: 250px;
