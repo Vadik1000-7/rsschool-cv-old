@@ -49,6 +49,7 @@ header{
     max-width: 450px;
     width: 100%;
 }
+.nav-hover2,
 .nav-hover{
     text-decoration: none;
     color: black;
@@ -390,7 +391,7 @@ header{
     margin-top: 53px;
     margin-right: 45px;
 }
-.button-contacts{
+.button-adress{
     max-width: 450px;
     box-sizing: border-box;
     width: 100%;
@@ -694,13 +695,12 @@ header{
         font-size: 40px;
         line-height: 52px;
     }
-    .button-contacts{
-        order: -1;
-    }
+
     .button-adress{
         margin-top: 0;
         width: 450px;
         height: 50px;
+        order: -1;
     }
     .contacts-block{
         display: flex;
@@ -860,7 +860,6 @@ header{
     .card-box-service{
         row-gap: 34px;
     }
-
 }
 
 /*about end 380px*/
@@ -903,7 +902,7 @@ header{
         margin-top: 70px;
         display: flex;
         justify-content: center;
-        row-gap: 34px;
+        row-gap: 38px;
         border-radius: 5px 0px 0px 5px;
     }
     .card-images{
@@ -912,6 +911,9 @@ header{
     }
     .text-top-card-box{
         margin-bottom: 12px;
+    }
+    .text-and-images{
+        max-height: 600px;
     }
 }
 
@@ -925,6 +927,8 @@ header{
         font-size: 25px;
         line-height: 30px;
         margin: 24px 0px 37px 0px;
+        padding: 0px;
+        padding-top: 3px;
     }
     .prices{
         margin: 0;
@@ -945,7 +949,7 @@ header{
         text-align: center;
     }
     .text-right-box{
-        margin: 19px 0px 18px 0px;
+        margin: 21px 0px 18px 0px;
         text-align: center;
         font-weight: 700;
         font-size: 20px;
@@ -1005,18 +1009,14 @@ header{
         padding: 0px;
     }
     .button-contacts{
-        margin: 0 auto;
-        width: 300px;
-    }
-    .button-adress{
-        width: 300px;
+        margin-left: 0;
+        max-width: 200px;
     }
     .contacts-acc{
         margin-right: 23px;
-        margin-left: auto;
     }
     .city{
-        margin-left: 23px;
+        margin-left: 19px;
         font-weight: 400;
         font-size: 20px;
         line-height: 40px;
@@ -1026,6 +1026,19 @@ header{
         align-content: center;
         margin-left: 0 auto;
         max-width: 300px;
+    }
+    .button-adress{
+        max-width: 300px;
+        order: -1;
+        padding: 0px;
+    }
+    .contacts-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 330px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -1049,7 +1062,209 @@ header{
         margin-top: -5px;
     }
 }
-
+@media screen and (max-width: 350px){
+    body{
+        min-width: 325px;
+        display: block;
+    }
+    .prices{
+        max-width: 250px;
+    }
+    .span1-professional-experienced{
+        font-size: 20px;
+        max-width: 280px;
+    }
+    .container{
+        background-size: cover;
+        display: block;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .button-adress{
+        max-width: 250px;
+    }
+    .common-text,
+    .about{
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .service-header-container{
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .Service-and-our{
+        margin: 0 auto;
+    }
+}
 /*Footer end 380px*/
-
 /*main end 380px*/
+
+
+
+
+
+    html {
+    box-sizing: border-box;
+    height: 100%;
+    }
+
+    *,
+    *::after,
+    *::before {
+    box-sizing: inherit;
+    }
+
+    body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    height: 100%;
+    }
+
+
+    .navbar1{
+    position: fixed;
+    left: 296px;
+    top: 19px;
+    }
+    @media screen and (max-width: 380px){
+        .nav-bar1{
+            display: block;
+        }
+    }
+    .navbar__wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    }
+
+    .hamb {
+    display: none;
+    }
+
+    .popup {
+    display: none;
+    }
+
+    .menu > li > a {
+    text-decoration: none;
+    }
+
+    .navbar__wrap .menu {
+    display: flex;
+    }
+
+    .navbar__wrap .menu > li {
+    display: flex;
+    align-items: stretch;
+    }
+
+    .navbar__wrap .menu > li > a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: rgba(0, 0, 0, 0.7);
+    }
+
+    .navbar__wrap .menu > li > a:hover {
+    color: rgb(0, 0, 0);
+    }
+
+
+
+    @media (max-width: 380px) {
+        .navbar__wrap .menu {
+        display: none;
+        }
+        .nav-bar1{
+            background-color: rgba(237, 242, 236, 1);
+        }
+        .hamb {
+        display: flex;
+        align-items: center;
+        }
+    
+        .hamb__field {
+        padding: 10px 20px;
+        cursor: pointer;
+        }
+        .header{
+            margin: 0;
+        }
+        .bar {
+        display: block;
+        width: 40px;
+        height: 2px;
+        margin: 6px auto;
+        background-color: rgb(0, 0, 0);
+        transition: 0.2s;
+        }
+    
+        .popup {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color:rgba(237, 242, 236, 1);
+        z-index: 100;
+        display: flex;
+        transition: 0.3s;
+        }
+    
+        .popup.open {
+        left: 0;
+        }
+    
+        .popup .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        overflow: auto;
+        }
+    
+        .popup .menu > li {
+        width: 100%;
+        }
+    
+        .popup .menu > li > a {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        padding: 15px;
+        font-weight: bold;
+        color: #2f90d0;
+        }
+    
+        .popup .menu > li > a:hover {
+        background-color: rgba(122, 82, 179, 0.1);
+        }
+    
+        .hamb__field.active .bar:nth-child(2) {
+        opacity: 0;
+        }
+    
+        .hamb__field.active .bar:nth-child(1) {
+        transform: translateY(19px) rotate(45deg);
+        }
+    
+        .hamb__field.active .bar:nth-child(3) {
+        transform: translateY(3px) rotate(-45deg);
+        }
+        .hamb__field.active .bar:nth-child(4) {
+        transform: translateY(-5px) rotate(-45deg);
+        }
+    
+        body.noscroll {
+        overflow: hidden;
+        }
+    }
