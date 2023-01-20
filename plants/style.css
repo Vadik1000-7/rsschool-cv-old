@@ -1127,12 +1127,13 @@ header{
 
 
     .navbar1{
+    display: none;
     position: fixed;
     left: 296px;
     top: 19px;
     }
     @media screen and (max-width: 380px){
-        .nav-bar1{
+        .navbar1{
             display: block;
         }
     }
