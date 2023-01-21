@@ -473,7 +473,11 @@ header{
 
 /*main end*/
 /*header start 768px*/
-
+@media screen and (max-width: 770px){
+    .nav-list{
+        display: none;
+    }
+}
 @media screen and (max-width: 900px) {
     .container{
         margin: 0px 50px;
@@ -830,7 +834,7 @@ header{
 
 /*about start 380px*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 630px){
     .span1-professional-experienced{
         margin: 30px 0px 14px 0px;
         width: 288px;
@@ -921,7 +925,7 @@ header{
 
 /*Price start 380px*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 700px){
     .prices-h2{
         font-weight: 700;
         font-size: 25px;
@@ -995,7 +999,7 @@ header{
 
 /*Contact-us start 380px*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     .contacts-us{
         margin: 25px 0px 80px 0px;
         font-size: 25px;
@@ -1101,6 +1105,11 @@ header{
 /*Footer end 380px*/
 /*main end 380px*/
 
+@media screen and (max-width: 660px){
+    .picture-welcome{
+        display: none;
+    }
+}
 
 
 
@@ -1131,7 +1140,7 @@ header{
     left: 296px;
     top: 19px;
     }
-    @media screen and (max-width: 380px){
+    @media screen and (max-width: 500){
         .nav-bar1{
             display: block;
         }
@@ -1178,14 +1187,9 @@ header{
         display: none;
     }
 
-    @media (max-width: 380px) {
-        .navbar__wrap .menu {
-        display: none;
-        }
+    @media (max-width: 400px) {
         .navbar1{
             display: block;
-        }
-
         }
         .hamb {
         display: flex;
