@@ -1175,14 +1175,14 @@ header{
     color: rgb(0, 0, 0);
     }
 
+    .navbar1{
+        display: none;
+    }
 
 
     @media (max-width: 380px) {
-        .navbar__wrap .menu {
-        display: none;
-        }
-        .nav-bar1{
-            background-color: rgba(237, 242, 236, 1);
+        .navbar1{
+            display: block;
         }
         .hamb {
         display: flex;
