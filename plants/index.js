@@ -1,4 +1,10 @@
 
+   function onClick() {
+    document.getElementById('burger').classList.toggle('active');
+    document.getElementById('popup-menu').classList.toggle('active');
+    document.getElementById('body').classList.toggle('active');
+    }
+
     const servicesGarden = document.querySelectorAll('.servise-item.garden');
     const servicesLawn = document.querySelectorAll('.servise-item.lawn');
     const servicesPlanting = document.querySelectorAll('.servise-item.planting');
