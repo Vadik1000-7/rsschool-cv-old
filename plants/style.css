@@ -739,6 +739,7 @@ td {
     height: 3.472vw;
     align-items: center;
     margin: 2.778vw 0;
+    padding-bottom: 30px;
 }
 
 .footer-data {
